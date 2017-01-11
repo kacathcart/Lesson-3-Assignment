@@ -18,12 +18,6 @@ header  {
   max-width: auto;
 }
 
-.logoshoe {
-	  background-color: white;
-    display: inline-block;
-    width: 10%;
-    float: left;
-	}
 
 /*FONT and TEXT Color*/
 
@@ -76,6 +70,15 @@ float: left;
 }
 
 /*Images*/
+
+
+.logoshoe {
+	  background-color: white;
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    float: left;
+	}
 
 .blackshoe {
 float: left;
