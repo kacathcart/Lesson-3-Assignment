@@ -4,22 +4,33 @@ body {
   font-family: verdana;
       font-size: 20px;
 }
+header  {
+ margin-bottom: 15px;
+ height: 100px;
+ width: auto;
+ background-color: white;
+}
 
 .main{
   background-color: #e92d5d;
   display: block;
   color: white;
-  max-width: 1500px;
+  max-width: auto;
 }
 
-.logo {
+.logoshoe {
 	  background-color: white;
-	  font-size: 20px;
     display: inline-block;
-    max-width: 1500px;
+    width: 10%;
+    float: left;
 	}
 
 /*FONT and TEXT Color*/
+
+.righttextBlackShoe {
+padding-left: 50px;
+
+}
 .greytext {
 color: grey;
 font-size: 15px;
@@ -49,6 +60,13 @@ color: white
 
 .menuleft {
 color: red;
+display: inline-block;
+float: left;
+}
+
+.rightmenu {
+  color: red;
+  float: right;
 
 }
 
@@ -59,22 +77,16 @@ color: red;
 
 /*Images*/
 
+.blackshoe {
+float: left;
+padding-left: 150px;
+}
+
 .recommended-shoes{
   background-color: #e92d5d;
 
 }
 
-span {
-  color: black
-
-}
-
-.logoshoe {
-height: 30px;
-width: 70px;
-float: left;
-
-}
 
 .image-1 {
     height: 200px;
