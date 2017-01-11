@@ -12,14 +12,26 @@ header  {
 }
 
 .main{
-  background-color: #e92d5d;
-  display: block;
-  color: white;
-  max-width: auto;
+
+background-color: #de1c73;
+background-image: -webkit-linear-gradient(left, hsl(0, 80%, 70%), #ff5021); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+background-image: -moz-linear-gradient(right, hsl(0, 80%, 70%), #ff5021); /* For Firefox (3.6 to 15) */
+background-image: -o-linear-gradient(right, hsl(0, 80%, 70%), #ff5021); /* For old Opera (11.1 to 12.0) */
+background-image: linear-gradient(to right, hsl(0, 80%, 70%), #ff5021); /* Standard syntax; must be last */
+display: block;
+color: white;
+max-width: auto;
+height: 500px;
+
 }
 
 
 /*FONT and TEXT Color*/
+
+.ShopRecShoes {
+  background-color: #ffeded;
+  text-align: center;
+}
 
 .righttextBlackShoe {
 padding-left: 50px;
@@ -82,11 +94,15 @@ float: left;
 
 .blackshoe {
 float: left;
-padding-left: 150px;
+padding: 100px 30px 100px 80px;
 }
 
 .recommended-shoes{
-  background-color: #e92d5d;
+  background-color: #de1c73;
+    background-image: -webkit-linear-gradient(left, hsl(0, 80%, 70%), #ff5021); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image: -moz-linear-gradient(right, hsl(0, 80%, 70%), #ff5021); /* For Firefox (3.6 to 15) */
+  background-image: -o-linear-gradient(right, hsl(0, 80%, 70%), #ff5021); /* For old Opera (11.1 to 12.0) */
+  background-image: linear-gradient(to right, hsl(0, 80%, 70%), #ff5021); /* Standard syntax; must be last */
 
 }
 
@@ -94,13 +110,13 @@ padding-left: 150px;
 .image-1 {
     height: 200px;
     width: 350px;
-  }
+    }
 
 
   .image-2 {
     height: 200px;
     width: 350px;
-  }
+    }
 
 
   .image-3 {
@@ -113,4 +129,5 @@ padding-left: 150px;
 
 .recshoealign{
   display: inline-block;
+  padding-left: 45px;
 }
